@@ -23,19 +23,23 @@ module.exports = {
       host: 'smtp.office365.com',
       port: '587',
       auth: {
-        user: 'Wayne.Gong.CN@hotmail.com',
-        pass: 'Waynegong123',
+        user: 'xxx@hotmail.com',
+        pass: 'xxx',
       }
     },
     emailConf: {
       subject: 'RSSMailer 每日推送',
-      from: 'RSSMailer <Wayne.Gong.CN@hotmail.com>',
-      to: 'Wayne.Gong.CN@hotmail.com',
+      from: 'RSSMailer <xxx@hotmail.com>',
+      to: 'xxx@hotmail.com',
     }
   },
 
   filter: {
     fresh: 24,  // 24 hours
     max: 10      // item feed max records
+  },
+
+  readLater: {
+    clientId: '5d27f006-5a2d-4a6f-b637-e39f0cf0e525'
   }
 };
